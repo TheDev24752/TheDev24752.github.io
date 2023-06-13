@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title id="title">
+      :(
+    </title>
+    
+    <link rel="icon"
+      type="image/x-icon"
+      href="banene.png"/>
+      
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    
+    <meta charset="utf-8">
+    <meta name="description" content="JBU Covenant Purity Test">
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    
+    <script>
+      document.getElementById("title").innerHTML = getTitleText();
+    </script>
+  </head>
+  <body style="color: gold; background-color:#003768;">
+    <center>  
+      <h1>JBU COMMUNITY COVENANT PURITY TEST</h1>
+      <i>Based off of the 2022 JBU community covenant. No answers or userdata are so much as accessed.</i>
+      <p>Ok, I think we've all heard of the RICE purity test,
+      but the <a href="https://www.jbu.edu/hubfs/CommunityCovenant_2022.pdf">
+      JBU covenant</a> <i>really does</i> make a perfect litmus test for REAL 
+      BIBLICAL PURITY, no? Let's see it!</p>
+      <p id="err" style="color: orange;" hidden>Error: there are unanswered questions</p>
+      <table>
+        <tr>
+          <td colspan="2">
+            <center><h2>§1: We affirm and honor scripture</h2></center>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          Do you submit to the Bible's instruction on living? (ex: I Cor. 11:7-16, Acts 4:32, Matt. 5:29, etc.)
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q1" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q1" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q1" value="2">
+            <label for="on">On Campus</label> 
+          </td>
+        </tr>
+        <tr>
+          <td>
+          Do you fail to act with "Kindness?"
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q2" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q2" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q2" value="2">
+            <label for="on">On Campus</label> 
+          </td>
+        </tr>
+        <tr>
+          <td>
+          Do you fail to act with "Gentleness?"
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q3" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q3" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q3" value="2">
+            <label for="on">On Campus</label> 
+          </td>
+        </tr>
+        <tr>
+          <td>
+          Do you fail to act with "Justice?"
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q4" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q4" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q4" value="2">
+            <label for="on">On Campus</label> 
+          </td>
+        </tr>
+        <tr>
+          <td>
+          Do you fail to act with "Self-control?"
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q5" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q5" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q5" value="2">
+            <label for="on">On Campus</label> 
+          </td>
+        </tr>
+        <tr>
+          <td>
+          Have you been angry?
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q6" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q6" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q6" value="2">
+            <label for="on">On Campus</label> 
+          </td>
+        </tr>
+        <tr>
+          <td>
+          Have you been jealous?
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q7" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q7" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q7" value="2">
+            <label for="on">On Campus</label> 
+          </td>
+        </tr>
+        <tr>
+          <td>
+          Have you stolen?"
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q8" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q8" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q8" value="2">
+            <label for="on">On Campus</label> 
+          </td>
+        </tr>
+        <tr>
+          <td>
+          Have you gossiped?
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q9" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q9" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q9" value="2">
+            <label for="on">On Campus</label> 
+          </td>
+        </tr>
+        <tr>
+          <td>
+          Have you bullied someone?
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q10" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q10" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q10" value="2">
+            <label for="on">On Campus</label> 
+          </td>
+        </tr>
+        <tr>
+          <td>
+          Have you been violent?
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q11" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q11" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q11" value="2">
+            <label for="on">On Campus</label> 
+          </td>
+        </tr>
+        <tr>
+          <td>
+          Have you lied?
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q12" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q12" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q12" value="2">
+            <label for="on">On Campus</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          Have you "Hooked-up" or been in any other kind of non-committal relationship? (This comes from "Scripture also teaches that we are made for relationships including lifelong friendships," and it relates to a critique by Queer Liberation groups about marriage).
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q13" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q13" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q13" value="2">
+            <label for="on">On Campus</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          Have you been in a same-sex relationship (use the other person's biological sex)?
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q14" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q14" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q14" value="2">
+            <label for="on">On Campus</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          Have you been in a polyamorous relationship?
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q15" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q15" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q15" value="2">
+            <label for="on">On Campus</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          Have you had sex with someone of the same sex (use the other person's biological sex)?
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q16" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q16" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q16" value="2">
+            <label for="on">On Campus</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          Have you participated in an "orgy?"
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q17" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q17" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q17" value="2">
+            <label for="on">On Campus</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          Have you transitioned to a gender other than your assigned gender at birth without acute gender dysphoria?
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q18" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q18" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q18" value="2">
+            <label for="on">On Campus</label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <center><h2>§2: We strive to live with integrity</h2></center>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          Have you committed academic dishonesty? (Copying, cheating, etc.)
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q19" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q19" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q19" value="2">
+            <label for="on">On Campus</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          Do you surround yourself by people who, whether intentionally or not, encourage you to break the covenant?
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q20" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q20" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q20" value="2">
+            <label for="on">On Campus</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          Have you broken the law? (Exluding laws which contradict Christian morals)
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q21" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q21" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q21" value="2">
+            <label for="on">On Campus</label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <center><h2>§3: We support and care for individual uniqueness</h2></center>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          Have you disrespected or dehumanized someone?
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q22" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q22" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q22" value="2">
+            <label for="on">On Campus</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          Have you harrased a person verbally?
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q23" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q23" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q23" value="2">
+            <label for="on">On Campus</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          Have you harrased a person sexually?
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q24" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q24" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q24" value="2">
+            <label for="on">On Campus</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          Have you harrased a person based on their race/ethnicity/national origin?
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q25" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q25" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q25" value="2">
+            <label for="on">On Campus</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          Have you viewed porn?
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q26" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q26" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q26" value="2">
+            <label for="on">On Campus</label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <center><h2>§4: We actively participate within the community</h2></center>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          Do you discourage people from living pure and/or holy lives?
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q27" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q27" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q27" value="2">
+            <label for="on">On Campus</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          Have you harmed yourself?
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q28" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q28" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q28" value="2">
+            <label for="on">On Campus</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          have you harmed someone else?
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q29" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q29" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q29" value="2">
+            <label for="on">On Campus</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          have you harmed the JBU community?
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q30" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q30" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q30" value="2">
+            <label for="on">On Campus</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          have you used a tobacco or another nicotine product?
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q31" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q31" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q31" value="2">
+            <label for="on">On Campus</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          have you drank alcohol?
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q32" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q32" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q32" value="2">
+            <label for="on">On Campus</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          have you gambled?
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q33" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q33" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q33" value="2">
+            <label for="on">On Campus</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          have you used swear words?
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q34" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q34" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q34" value="2">
+            <label for="on">On Campus</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          have you used other drugs (including marijuana)?
+          </td>
+          <td>
+            <input type="radio" id="no" name="Q35" value="0">
+            <label for="no">No</label><br>
+            <input type="radio" id="off" name="Q35" value="1">
+            <label for="off">Off Campus</label><br>
+            <input type="radio" id="on" name="Q35" value="2">
+            <label for="on">On Campus</label>
+          </td>
+        </tr>
+      </table><br>
+      <button onclick="tabulateTest();">Score</button>
+    </center>
+  </body>
+</html>

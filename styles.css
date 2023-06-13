@@ -1,0 +1,11 @@
+table, tr, td {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  border-collapse: collapse;
+  width:66%;
+}
+
+td {
+  width: 33%;
+}
